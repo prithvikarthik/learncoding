@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int a;
+	int b;
+
+	printf("Enter a three-digit number: ");
+	scanf("%d", &a);
+
+	printf("The reversal is: ");
+	printf("%d\n", ((a % 100) % 10) * 100 + ((a % 100) - (a % 100) % 10) + (a / 100));
+
+	return 0;
+}	
