@@ -3,7 +3,6 @@
 int main(void)
 {
 	int a;
-	int b;
 
 	printf("Enter a three-digit number: ");
 	scanf("%d", &a);
