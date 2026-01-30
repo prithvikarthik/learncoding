@@ -9,7 +9,7 @@ int main(void)
 
 	if (n == 1 - 10)
 	{
-	   printf("n is between 1 and 10\n");
+	   printf("n is between 1 and 10\n");/*This statement is not legal(not right)
 	}	
 
 	return 0;
