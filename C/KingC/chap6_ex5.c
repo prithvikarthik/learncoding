@@ -2,21 +2,24 @@
 
 int main(void)
 {
+	int i = 0;
 	printf("(a)");
-	while (int i1 < 10){
-	  printf("%d ", i1);
+	while (i < 10){
+	  printf("%d ", i);
 	}
 	printf("\n");
 
-	printf("(a)");
-	while (int i1 < 10){
-	  printf("%d ", i1);
+	printf("(b)");
+	for (; i < 10;){
+	  printf("%d ", i);
 	}
 	printf("\n");
-	
-	printf("(a)");
-	while (int i1 < 10){
-	  printf("%d ", i1);
-	}
+
+	printf("(c)");
+	do {
+	  printf("%d ", i);
+	} while (i < 10);
 	printf("\n");
+
+	return 0;
 }	
