@@ -14,7 +14,7 @@ int main(void)
 	    printf("%d\n", i * i);
 	  }
 
-	  else if (i % 2 != 0) {
+	  else {
 	    continue;
 	  }  
 	}
