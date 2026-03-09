@@ -27,7 +27,7 @@ int main(void)
 	    e += float_num;
 	}
 
-	printf("The value of e is %f\n", e);
+	printf("The value of e is %.10f\n", e);
 
 	return 0;
 
