@@ -3,20 +3,21 @@
 
 int main(void)
 {
-    int hr, mn;
+    int hr;
+    char mn1, mn2;
     char t, m;
 
     printf("Enter the time in 12-hour clock format: ");
-    scanf("%2d:%2d %c%c", &hr, &mn, &t, &m);
+    scanf("%d:%1c%1c %c%c", &hr, &mn1, &mn2, &t, &m);
 
     if (toupper(t) == 'A' || t == 'a')
     {
-      printf("Your time in 24-hour clock format: %2d:%2d\n", hr, mn);
+      printf("Your time in 24-hour clock format: %d:%1c%1c\n", hr, mn1, mn2);
     }
 
     else if (toupper(t) == 'P' || t == 'p')
     {
-      printf("Your time in 24-hour clock format: %2d:%2d\n", (hr + 12), mn);
+      printf("Your time in 24-hour clock format: %d:%1c%1c\n", (hr + 12), mn1, mn2);
     }
 
     return 0;
