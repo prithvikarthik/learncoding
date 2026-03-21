@@ -9,7 +9,7 @@ int main(void)
     int occurence[N] = {0};
     int digit;
     long n;
-
+    
     printf("Enter a number: ");
     scanf("%ld", &n);
 
