@@ -25,48 +25,8 @@ int main(void)
     {
       digit = n % 10;
 
-      switch (digit)
-      {
-        case 0:
-            occurence[digit] += 1;
-            break;
+      occurence[digit] += 1;
 
-        case 1:
-            occurence[digit] += 1;
-            break;
-
-        case 2:
-            occurence[digit] += 1;
-            break;
-            
-        case 3:
-            occurence[digit] += 1;
-            break;
-
-        case 4:
-            occurence[digit] += 1;
-            break;
-
-        case 5:
-            occurence[digit] += 1;
-            break;
-
-        case 6:
-            occurence[digit] += 1;
-            break;
-
-        case 7:
-            occurence[digit] += 1;
-            break;
-
-        case 8:
-            occurence[digit] += 1;
-            break;
-
-        case 9:
-            occurence[digit] += 1;
-            break;
-      }
       n /= 10;
     }
 
