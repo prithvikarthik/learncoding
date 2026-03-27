@@ -3,7 +3,7 @@
 int main(void)
 {
     printf("This program creates a magic quare of a specified size.\n");
-    printf("The size mjust be an odd number between 1 and 99.\n");
+    printf("The size must be an odd number between 1 and 99.\n");
 
     int size;
 
