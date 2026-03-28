@@ -1,3 +1,4 @@
+/*Doesn't change or swap both variables(only takes the copies of the variables) */
 #include <stdio.h>
 
 void swap(int a, int b)
